@@ -19,7 +19,6 @@ def parser_data():
     )
 
     parser.add_argument("-f", "--file", help="题库文件", required=True)
-    # TODO: 添加更多参数
     parser.add_argument("-c", "--choose", action="store_true", help="是否选择文章")
     
     args = parser.parse_args()

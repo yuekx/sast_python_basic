@@ -8,9 +8,9 @@ streamlit==1.24.1
 
 约定以下参数：\
 --file -f&emsp;接文章的路径\
---choose-c&emsp;是否选择文章（不加-c则从题库中随机抽取文章）
+--choose -c&emsp;是否选择文章（不加-c则从题库中随机抽取文章）
 
-文章使用 JSON 存储，的格式如下：\
+文章使用 JSON 存储，格式如下：\
 {\
 &emsp;&emsp;"language":"文章语言",\
 &emsp;&emsp;"articles": [\
